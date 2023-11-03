@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
@@ -5,7 +6,20 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const HeaderSocials = () => {
   return (
-    <div className="header_socials">
+    <motion.div
+      initial={{ x: -100, opacity: 0 }}
+      whileInView={{
+        opacity: 1,
+        x: 0,
+        transition: {
+          type: "spring",
+          bounce: 0.4,
+          duration: 1.5,
+        },
+      }}
+      viewport={{ once: false }}
+      className="header_socials"
+    >
       <a href="https://linkedin.com" target="blank">
         <BsLinkedin />
       </a>
@@ -15,7 +29,7 @@ const HeaderSocials = () => {
       <a href="https://x.com" target="blank">
         <FaXTwitter />
       </a>
-    </div>
+    </motion.div>
   );
 };
 

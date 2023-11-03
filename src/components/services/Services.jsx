@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.css";
 import { BiCheck } from "react-icons/bi";
+import { motion } from "framer-motion";
 
 const Services = () => {
   return (
@@ -9,7 +10,20 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services_container">
-        <article className="service">
+        <motion.article
+          initial={{ x: -300, opacity: 0 }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 0.8,
+            },
+          }}
+          viewport={{ once: false }}
+          className="service"
+        >
           <div className="service_head">
             <h3>Data Analysis</h3>
           </div>
@@ -36,8 +50,21 @@ const Services = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </li>
           </ul>
-        </article>
-        <article className="service">
+        </motion.article>
+        <motion.article
+          initial={{ y: 300, opacity: 0 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 0.8,
+            },
+          }}
+          viewport={{ once: false }}
+          className="service"
+        >
           <div className="service_head">
             <h3>Web Development</h3>
           </div>
@@ -68,8 +95,21 @@ const Services = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </li>
           </ul>
-        </article>
-        <article className="service">
+        </motion.article>
+        <motion.article
+          initial={{ x: 300, opacity: 0 }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 0.8,
+            },
+          }}
+          viewport={{ once: false }}
+          className="service"
+        >
           <div className="service_head">
             <h3>Content Analysis</h3>
           </div>
@@ -96,7 +136,7 @@ const Services = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </li>
           </ul>
-        </article>
+        </motion.article>
       </div>
     </section>
   );
