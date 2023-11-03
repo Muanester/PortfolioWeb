@@ -6,6 +6,7 @@ import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
+import { motion } from "framer-motion";
 
 const Portfolio = () => {
   return (
@@ -13,7 +14,20 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio_container">
+      <motion.div
+        initial={{ x: 100, opacity: 0 }}
+        whileInView={{
+          opacity: 1,
+          x: 0,
+          transition: {
+            type: "spring",
+            bounce: 0.4,
+            duration: 1.5,
+          },
+        }}
+        viewport={{ once: false }}
+        className="container portfolio_container"
+      >
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
@@ -122,7 +136,7 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-      </div>
+      </motion.div>
     </section>
   );
 };

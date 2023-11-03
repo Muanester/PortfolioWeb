@@ -7,25 +7,23 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <motion.header>
+    <motion.header
+      initial={{ x: 300, opacity: 0 }}
+      whileInView={{
+        opacity: 1,
+        x: 0,
+        transition: {
+          type: "spring",
+          bounce: 0.4,
+          duration: 1.5,
+        },
+      }}
+      viewport={{ once: false }}
+    >
       <div className="container header_container">
         <h5>Hello I'm</h5>
-        <motion.h1
-          initial={{ y: -100, opacity: 0 }}
-          whileInView={{
-            y: 0,
-            opacity: 1,
-            transition: {
-              type: "spring",
-              bounce: 0.4,
-              duration: 0.9,
-            },
-          }}
-          viewport={{ once: false }}
-        >
-          Stephen Mutisya
-        </motion.h1>
-        <motion.h5 whileInView={{ bounce: 0.4 }} className="text-light">
+        <motion.h1>Stephen Mutisya</motion.h1>
+        <motion.h5 className="text-light">
           Data Analyst & Software Developer
         </motion.h5>
 
@@ -33,45 +31,40 @@ const Header = () => {
 
         <HeaderSocials />
 
-        <motion.div
-          initial={{ x: 300, opacity: 0 }}
-          whileInView={{
-            opacity: 1,
-            x: 0,
-            rotate: -360,
-            transition: {
-              type: "spring",
-              bounce: 0.4,
-              duration: 1.5,
-            },
-          }}
-          viewport={{ once: true }}
-          className="me"
-        >
+        <motion.div className="me">
+          <motion.div
+            initial={{ rotate: 0 }}
+            // animate={rotatingDiv}
+            whileInView={{
+              rotate: 360,
+              transitionDelay: 1,
+              transition: { duration: 100 },
+            }}
+            transition={{ duration: 2, ease: "linear" }}
+            className="splash-me"
+          ></motion.div>
           <motion.img src={ME} alt="" />
         </motion.div>
 
-        <motion.a
-          initial={{ rotate: 90, x: 100, opacity: 0 }}
-          whileInView={{
-            opacity: 1,
-            x: 0,
-            rotate: 90,
-            transition: {
-              type: "spring",
-              bounce: 0.4,
-              duration: 0.1,
-            },
-          }}
-          viewport={{ once: false }}
-          href="#contact"
-          className="scroll_down"
-        >
+        <a href="#contact" className="scroll_down">
           Scroll Down
-        </motion.a>
+        </a>
       </div>
     </motion.header>
   );
 };
 
 export default Header;
+
+// initial={{ x: 300, opacity: 0 }}
+// whileInView={{
+//   opacity: 1,
+//   x: 0,
+//   rotate: -360,
+//   transition: {
+//     type: "spring",
+//     bounce: 0.4,
+//     duration: 1.5,
+//   },
+// }}
+// viewport={{ once: true }}

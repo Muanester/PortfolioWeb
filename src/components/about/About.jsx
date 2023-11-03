@@ -5,26 +5,22 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { motion } from "framer-motion";
+import Transition from "../../assets/Transition";
+import { fadeIn } from "../../assets/variants";
 
 const About = () => {
   return (
     <section id="about">
+      <Transition />
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about_container">
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          whileInView={{
-            opacity: 1,
-            x: 0,
-            transition: {
-              type: "spring",
-              bounce: 0.4,
-              duration: 1.5,
-            },
-          }}
-          viewport={{ once: false }}
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
           className="about_me"
         >
           <div className="about_me-image">
@@ -40,7 +36,7 @@ const About = () => {
                 x: 0,
                 transition: {
                   type: "spring",
-                  bounce: 0.4,
+
                   duration: 0.5,
                 },
               }}
@@ -52,13 +48,13 @@ const About = () => {
               <small>3+ Years Working</small>
             </motion.article>
             <motion.article
-              initial={{ x: 300, opacity: 0 }}
+              initial={{ x: 200, opacity: 0 }}
               whileInView={{
                 opacity: 1,
                 x: 0,
                 transition: {
                   type: "spring",
-                  bounce: 0.4,
+
                   duration: 0.8,
                 },
               }}
@@ -70,13 +66,13 @@ const About = () => {
               <small>10+ Worldwide</small>
             </motion.article>
             <motion.article
-              initial={{ x: 300, opacity: 0 }}
+              initial={{ x: 50, opacity: 0 }}
               whileInView={{
                 opacity: 1,
                 x: 0,
                 transition: {
                   type: "spring",
-                  bounce: 0.4,
+
                   duration: 1.1,
                 },
               }}
@@ -88,19 +84,7 @@ const About = () => {
               <small>20+ Completed</small>
             </motion.article>
           </div>
-          <motion.p
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: "spring",
-                bounce: 0.4,
-                duration: 1.1,
-              },
-            }}
-            viewport={{ once: false }}
-          >
+          <motion.p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Accusantium adipisci, inventore molestiae cum error qui totam
             suscipit obcaecati saepe quos illo fugit omnis numquam nihil nobis
@@ -109,13 +93,13 @@ const About = () => {
             repudiandae modi, ipsum et voluptas aperiam.
           </motion.p>
           <motion.a
-            initial={{ y: 100, opacity: 0 }}
+            initial={{ y: 50, opacity: 0 }}
             whileInView={{
               opacity: 1,
               y: 0,
               transition: {
                 type: "spring",
-                bounce: 0.4,
+
                 duration: 0.5,
               },
             }}

@@ -17,7 +17,7 @@ const Services = () => {
             x: 0,
             transition: {
               type: "spring",
-              bounce: 0.4,
+
               duration: 0.8,
             },
           }}
@@ -52,13 +52,12 @@ const Services = () => {
           </ul>
         </motion.article>
         <motion.article
-          initial={{ y: 300, opacity: 0 }}
+          initial={{ opacity: 0 }}
           whileInView={{
             opacity: 1,
-            y: 0,
             transition: {
               type: "spring",
-              bounce: 0.4,
+
               duration: 0.8,
             },
           }}
@@ -103,7 +102,7 @@ const Services = () => {
             x: 0,
             transition: {
               type: "spring",
-              bounce: 0.4,
+
               duration: 0.8,
             },
           }}

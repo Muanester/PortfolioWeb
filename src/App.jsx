@@ -8,10 +8,12 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Transition from "./assets/Transition";
 
 const App = () => {
   return (
     <>
+      <Transition />
       <Header />
       <Navbar />
       <About />

@@ -49,8 +49,24 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.splash-me {
+  background: url("/src/assets/backsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 1.5rem;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px var(--color-primary);
+  height: 20rem;
+  width: 20rem;
+}
+
 .me img {
   border-radius: 50%;
+  position: absolute;
+  top: 6.5rem;
+  left: 3rem;
+  height: 17rem;
+  width: 17rem;
 }
 
 /*===== SCROLL =======*/

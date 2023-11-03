@@ -4,6 +4,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const form = useRef();
@@ -28,23 +29,62 @@ const Contact = () => {
 
       <div className="container contact_container">
         <div className="contact_options">
-          <article className="contact_option">
+          <motion.article
+            initial={{ x: -200, opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.4,
+                duration: 0.5,
+              },
+            }}
+            viewport={{ once: false }}
+            className="contact_option"
+          >
             <MdOutlineMailOutline className="contact_option-icon" />
             <h4>Email</h4>
             <h5>stevenmutisya999@gmail.com</h5>
             <a href="mailto:stevenmutisya999@gmail.com" target="_blank">
               Send a message
             </a>
-          </article>
-          <article className="contact_option">
+          </motion.article>
+          <motion.article
+            initial={{ x: -200, opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.4,
+                duration: 0.7,
+              },
+            }}
+            viewport={{ once: false }}
+            className="contact_option"
+          >
             <RiMessengerLine className="contact_option-icon" />
             <h4>Messenger</h4>
             <h5>Muanester</h5>
             <a href="http://facebook.com" target="_blank">
               Send a message
             </a>
-          </article>
-          <article className="contact_option">
+          </motion.article>
+          <motion.article
+            initial={{ x: -200, opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.4,
+                duration: 0.9,
+              },
+            }}
+            viewport={{ once: false }}
+            className="contact_option"
+          >
             <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
             <h5>+254 712 290 063</h5>
@@ -54,10 +94,25 @@ const Contact = () => {
             >
               Send a message
             </a>
-          </article>
+          </motion.article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <motion.form
+          initial={{ rotate: 20, x: 300, opacity: 0 }}
+          whileInView={{
+            rotate: 0,
+            opacity: 1,
+            x: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 1.5,
+            },
+          }}
+          viewport={{ once: false }}
+          ref={form}
+          onSubmit={sendEmail}
+        >
           <input
             type="text"
             name="name"
@@ -74,7 +129,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-        </form>
+        </motion.form>
       </div>
     </section>
   );

@@ -1,0 +1,21 @@
+.transition {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 100vw;
+  width: 100vw;
+  height: 100vh;
+  z-index: 30;
+}
+
+.transition1 {
+  background: var(--color-bg);
+}
+
+.transition2 {
+  background: var(--color-bg-variant);
+}
+
+.transition3 {
+  background: var(--color-primary-variant);
+}
