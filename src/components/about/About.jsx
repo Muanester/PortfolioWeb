@@ -90,7 +90,11 @@ const About = () => {
             suscipit obcaecati saepe quos illo fugit omnis numquam nihil nobis
             exercitationem aut nulla voluptatum eum modi debitis reprehenderit
             incidunt et sequi. Sapiente saepe vero id quibusdam ipsam sed
-            repudiandae modi, ipsum et voluptas aperiam.
+            repudiandae modi, ipsum et voluptas aperiam. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Accusantium, cupiditate! Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Officia nobis
+            eaque dolore quidem ipsum deserunt. Nesciunt, nisi. Excepturi, totam
+            soluta?
           </motion.p>
           <motion.a
             initial={{ y: 50, opacity: 0 }}
