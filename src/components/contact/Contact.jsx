@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { forwardRef, useRef } from "react";
 import "./Contact.css";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
@@ -6,7 +6,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 
-const Contact = () => {
+const Contact = forwardRef((props, contactRef) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section ref={contactRef} id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
@@ -133,6 +133,6 @@ const Contact = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Contact;

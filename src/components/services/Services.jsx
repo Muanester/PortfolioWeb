@@ -1,11 +1,11 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Services.css";
 import { BiCheck } from "react-icons/bi";
 import { motion } from "framer-motion";
 
-const Services = () => {
+const Services = forwardRef((props, servicesRef) => {
   return (
-    <section id="services">
+    <section ref={servicesRef} id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
@@ -139,6 +139,6 @@ const Services = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Services;

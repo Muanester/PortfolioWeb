@@ -1,11 +1,11 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Header.css";
 import CTA from "./CTA";
 import ME from "../../assets/dom.jpeg";
 import HeaderSocials from "./HeaderSocials";
 import { motion } from "framer-motion";
 
-const Header = () => {
+const Header = forwardRef(() => {
   return (
     <motion.header
       initial={{ x: 300, opacity: 0 }}
@@ -19,6 +19,8 @@ const Header = () => {
         },
       }}
       viewport={{ once: false }}
+      id="header"
+      className="thishead"
     >
       <div className="container header_container">
         <h5>Hello I'm</h5>
@@ -52,7 +54,7 @@ const Header = () => {
       </div>
     </motion.header>
   );
-};
+});
 
 export default Header;
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./About.css";
 import MEImage from "../../assets/dom.jpeg";
 import { FaAward } from "react-icons/fa";
@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 import Transition from "../../assets/Transition";
 import { fadeIn } from "../../assets/variants";
 
-const About = () => {
+const About = forwardRef((props, aboutRef) => {
   return (
-    <section id="about">
+    <section ref={aboutRef} id="about">
       <Transition />
       <h5>Get To Know</h5>
       <h2>About Me</h2>
@@ -117,6 +117,6 @@ const About = () => {
       </div>
     </section>
   );
-};
+});
 
 export default About;

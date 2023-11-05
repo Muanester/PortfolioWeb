@@ -1,11 +1,11 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Experience.css";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 
-const Experience = () => {
+const Experience = forwardRef((props, experienceRef) => {
   return (
-    <section id="experience">
+    <section ref={experienceRef} id="experience">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
@@ -17,7 +17,7 @@ const Experience = () => {
             x: 0,
             transition: {
               type: "spring",
-
+              bounce: 0.4,
               duration: 0.5,
             },
           }}
@@ -71,7 +71,7 @@ const Experience = () => {
             x: 0,
             transition: {
               type: "spring",
-
+              bounce: 0.4,
               duration: 0.5,
             },
           }}
@@ -120,6 +120,6 @@ const Experience = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Experience;

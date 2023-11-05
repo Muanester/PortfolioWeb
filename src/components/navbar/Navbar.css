@@ -1,20 +1,24 @@
 nav {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
-  display: block;
-  padding: 0.7rem 1.7rem;
+  padding: 0.7rem 1.7rem 0.2rem 1.7rem;
   z-index: 2;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
   bottom: 2rem;
   display: flex;
+  flex-direction: column;
   gap: 0.8;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
 
-nav a {
+.nav_anchor {
+  display: flex;
+}
+
+nav .nav_anchor a {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
@@ -23,11 +27,22 @@ nav a {
   font-size: 1.1rem;
 }
 
-nav a:hover {
+nav .nav_anchor a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
-nav a.active {
+nav .nav_anchor a.active {
   background: var(--color-primary);
   color: var(--color-bg);
+}
+
+.progress-bar {
+  height: 10px;
+  width: 100%;
+  margin-top: 0.2rem;
+  /* background: url(/src/assets/backsplash.jpg); */
+  background: var(--color-primary);
+  background-position: center;
+  background-size: cover;
+  border-radius: 2rem;
 }

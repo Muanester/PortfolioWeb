@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import About from "./components/about/About";
@@ -11,17 +11,23 @@ import Footer from "./components/footer/Footer";
 import Transition from "./assets/Transition";
 
 const App = () => {
+  const aboutRef = useRef(null);
+  const experienceRef = useRef(null);
+  const servicesRef = useRef(null);
+  const portfolioRef = useRef(null);
+  const contactRef = useRef(null);
+
   return (
     <>
       <Transition />
       <Header />
       <Navbar />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
+      <About ref={aboutRef} />
+      <Experience ref={experienceRef} />
+      <Services ref={servicesRef} />
+      <Portfolio ref={portfolioRef} />
       <Testimonials />
-      <Contact />
+      <Contact ref={contactRef} />
       <Footer />
     </>
   );

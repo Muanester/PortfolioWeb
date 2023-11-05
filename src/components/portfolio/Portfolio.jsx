@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
@@ -8,9 +8,9 @@ import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 import { motion } from "framer-motion";
 
-const Portfolio = () => {
+const Portfolio = forwardRef((props, portfolioRef) => {
   return (
-    <section id="portfolio">
+    <section ref={portfolioRef} id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
@@ -139,6 +139,6 @@ const Portfolio = () => {
       </motion.div>
     </section>
   );
-};
+});
 
 export default Portfolio;
