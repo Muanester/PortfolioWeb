@@ -1,6 +1,6 @@
 .services_container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 }
 
@@ -36,7 +36,8 @@
 }
 
 .service_list li {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(1, 1rem 1fr);
   gap: 1rem;
   margin-bottom: 0.8rem;
 }
@@ -44,6 +45,7 @@
 .service_list-icon {
   color: var(--color-primary);
   margin-top: 2px;
+  font-size: 1.2rem;
 }
 
 .service_list p {

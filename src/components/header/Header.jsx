@@ -25,6 +25,8 @@ const Header = forwardRef(() => {
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <motion.h1>Stephen Mutisya</motion.h1>
+        <h5 className="text-light">( Muanester )</h5>
+        <hr />
         <motion.h5 className="text-light">
           Data Analyst & Software Developer
         </motion.h5>

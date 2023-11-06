@@ -55,10 +55,11 @@ const Testimonials = () => {
             </div>
             <h5 className="client_name">Muaneter Mun</h5>
             <small className="client_review">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-              repudiandae hic debitis modi, voluptatum magni quos numquam quidem
-              iusto impedit temporibus. Tenetur est nemo deserunt nam. Eos
-              soluta dolores nam.
+              Working with Muanester on our website redesign was an exceptional
+              experience. Their attention to detail, creativity, and technical
+              expertise transformed our online presence. We now have a modern,
+              responsive, and user-friendly website that has improved our
+              business.
             </small>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
@@ -67,10 +68,11 @@ const Testimonials = () => {
             </div>
             <h5 className="client_name">Mun Muaneter</h5>
             <small className="client_review">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-              repudiandae hic debitis modi, voluptatum magni quos numquam quidem
-              iusto impedit temporibus. Tenetur est nemo deserunt nam. Eos
-              soluta dolores nam.
+              We hired Muanester to develop our e-commerce platform, and the
+              results exceeded our expectations. Their ability to create a
+              seamless shopping experience and integrate payment solutions was
+              remarkable. Our sales have significantly increased, thanks to
+              their work.
             </small>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
@@ -79,10 +81,11 @@ const Testimonials = () => {
             </div>
             <h5 className="client_name">Mun Muaneter Mun</h5>
             <small className="client_review">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-              repudiandae hic debitis modi, voluptatum magni quos numquam quidem
-              iusto impedit temporibus. Tenetur est nemo deserunt nam. Eos
-              soluta dolores nam.
+              We engaged Muanester for a data analysis project, and the results
+              were insightful and actionable. Their expertise in predictive
+              analytics helped us make data-driven decisions, ultimately
+              improving our business strategy. We highly recommend their
+              services.
             </small>
           </SwiperSlide>
           <SwiperSlide className="testimonial">
@@ -91,10 +94,11 @@ const Testimonials = () => {
             </div>
             <h5 className="client_name">Muaneter Mun Muanester</h5>
             <small className="client_review">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-              repudiandae hic debitis modi, voluptatum magni quos numquam quidem
-              iusto impedit temporibus. Tenetur est nemo deserunt nam. Eos
-              soluta dolores nam.
+              We partnered with Muanester to analyze patient data for our health
+              tech startup. Their proficiency in data mining and pattern
+              recognition was invaluable. They provided us with actionable
+              insights that guided our product development, leading to improved
+              patient outcomes.
             </small>
           </SwiperSlide>
         </Swiper>

@@ -32,13 +32,17 @@ const Portfolio = forwardRef((props, portfolioRef) => {
           <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>My Personal Portfolio Website</h3>
           <div className="portfolio_item-cta">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/Muanester/PortfolioWeb"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://github.com"
+              href="https://muanester.github.io/PortfolioWeb/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -46,17 +50,22 @@ const Portfolio = forwardRef((props, portfolioRef) => {
             </a>
           </div>
         </article>
+
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Furniture Webstore With Database</h3>
           <div className="portfolio_item-cta">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/Muanester/F-Finesse-Design-Upgrade"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://github.com"
+              href="https://muanester.github.io/F-Finesse-Design-Upgrade/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -64,17 +73,22 @@ const Portfolio = forwardRef((props, portfolioRef) => {
             </a>
           </div>
         </article>
+
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Online Shopping Web With Payment Intergration</h3>
           <div className="portfolio_item-cta">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/Muanester/Vogue-Trends"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://github.com"
+              href="https://muanester.github.io/Vogue-Trends/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -82,17 +96,22 @@ const Portfolio = forwardRef((props, portfolioRef) => {
             </a>
           </div>
         </article>
+
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>A Tesla Clone Website</h3>
           <div className="portfolio_item-cta">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/Muanester/React.js-tesla-clone-website"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://github.com"
+              href="https://muanester.github.io/React.js-tesla-clone-website/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -100,17 +119,22 @@ const Portfolio = forwardRef((props, portfolioRef) => {
             </a>
           </div>
         </article>
+
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>A Disney Plus Clone Website </h3>
           <div className="portfolio_item-cta">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/Muanester/React.js-disney-plus-web-clone"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://github.com"
+              href="https://github.com/Muanester/React.js-disney-plus-web-clone"
               className="btn btn-primary"
               target="_blank"
             >
@@ -118,17 +142,22 @@ const Portfolio = forwardRef((props, portfolioRef) => {
             </a>
           </div>
         </article>
+
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>An Interactive & Premium Admin Dashboard</h3>
           <div className="portfolio_item-cta">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/Muanester/Admin_dashboard"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://github.com"
+              href="https://github.com/Muanester/Admin_dashboard"
               className="btn btn-primary"
               target="_blank"
             >

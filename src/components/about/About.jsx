@@ -45,7 +45,7 @@ const About = forwardRef((props, aboutRef) => {
             >
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3+ Years Freelance</small>
             </motion.article>
             <motion.article
               initial={{ x: 200, opacity: 0 }}
@@ -85,35 +85,65 @@ const About = forwardRef((props, aboutRef) => {
             </motion.article>
           </div>
           <motion.p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium adipisci, inventore molestiae cum error qui totam
-            suscipit obcaecati saepe quos illo fugit omnis numquam nihil nobis
-            exercitationem aut nulla voluptatum eum modi debitis reprehenderit
-            incidunt et sequi. Sapiente saepe vero id quibusdam ipsam sed
-            repudiandae modi, ipsum et voluptas aperiam. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Accusantium, cupiditate! Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Officia nobis
-            eaque dolore quidem ipsum deserunt. Nesciunt, nisi. Excepturi, totam
-            soluta?
+            Hello, I am a highly skilled and experienced data analyst and web
+            developer ready to bring my expertise to your projects. With a
+            strong background in both fields, I offer a unique combination of
+            analytical prowess and technical proficiency.
+            <br />
+            <br />
+            Together, my skills as a data analyst and web developer make me a
+            versatile and valuable asset for your projects. Whether you need
+            data analysis, web development, or a combination of both, I am ready
+            to leverage my expertise to meet your unique requirements.
           </motion.p>
-          <motion.a
-            initial={{ y: 50, opacity: 0 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: "spring",
-
-                duration: 0.5,
-              },
-            }}
-            viewport={{ once: false }}
-            href="#contact"
-            className="btn btn-primary"
-          >
-            Let's Talk
-          </motion.a>
         </div>
+      </div>
+
+      <div className="container about_more_details">
+        <div>
+          <p>
+            As a data analyst, I excel in extracting valuable insights from
+            complex datasets and translating them into actionable
+            recommendations. I have a solid understanding of statistical
+            analysis, data visualization, and machine learning techniques. My
+            expertise lies in using tools such as R and Excel to analyze and
+            interpret data, enabling businesses to make informed decisions and
+            drive growth. Whether it's conducting exploratory data analysis,
+            creating insightful reports, or developing predictive models, I am
+            committed to delivering accurate and meaningful results that drive
+            business success.
+          </p>
+          <p>
+            Additionally, my proficiency as a web developer allows me to
+            transform data-driven insights into visually appealing and
+            user-friendly web applications. With a strong command of React.js,
+            HTML, CSS (& TAILWIND CSS), and JavaScript, I can build interactive
+            and responsive websites that effectively communicate information and
+            engage users. I am experienced in creating custom dashboards, data
+            visualizations, and interactive charts. My attention to detail,
+            clean coding practices, and adherence to industry standards ensure
+            that the websites I develop are not only visually appealing but also
+            optimized for performance and accessibility.
+          </p>
+        </div>
+
+        <motion.a
+          initial={{ y: 50, opacity: 0 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+
+              duration: 0.5,
+            },
+          }}
+          viewport={{ once: false }}
+          href="#contact"
+          className="btn btn-primary"
+        >
+          Let's Talk
+        </motion.a>
       </div>
     </section>
   );

@@ -7,13 +7,13 @@ import { FaXTwitter } from "react-icons/fa6";
 const HeaderSocials = () => {
   return (
     <motion.div className="header_socials">
-      <a href="https://linkedin.com" target="blank">
+      <a href="https://www.linkedin.com/in/stephen-mutisya/" target="blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="blank">
+      <a href="https://github.com/Muanester" target="blank">
         <BsGithub />
       </a>
-      <a href="https://x.com" target="blank">
+      <a href="https://twitter.com/Muanester" target="blank">
         <FaXTwitter />
       </a>
     </motion.div>

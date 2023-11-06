@@ -24,7 +24,7 @@ const Experience = forwardRef((props, experienceRef) => {
           viewport={{ once: false }}
           className="experience_frontend"
         >
-          <h3>Frontend Development</h3>
+          <h3>Software Development</h3>
           <div className="experience_content">
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icons" />
@@ -57,6 +57,13 @@ const Experience = forwardRef((props, experienceRef) => {
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icons" />
               <div>
+                <h4>Node JS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
                 <h4>TAILWIND</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -78,36 +85,23 @@ const Experience = forwardRef((props, experienceRef) => {
           viewport={{ once: false }}
           className="experience_frontend"
         >
-          <h3>Backend Development</h3>
+          <h3>Data Analysis</h3>
           <div className="experience_content">
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icons" />
               <div>
-                <h4>Node JS</h4>
+                <h4>R Programming</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icons" />
               <div>
-                <h4>MongoDB</h4>
+                <h4>Excel Macros</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icons" />
-              <div>
-                <h4>PHP</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icons" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
+
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icons" />
               <div>

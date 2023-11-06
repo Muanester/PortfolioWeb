@@ -1,8 +1,6 @@
 import React from "react";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/Stephen_Mutisya_Resume.pdf";
 import { motion } from "framer-motion";
-
-import { fadeIn } from "../../assets/variants";
 
 const CTA = () => {
   return (

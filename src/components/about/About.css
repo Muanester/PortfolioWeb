@@ -71,6 +71,23 @@
   color: var(--color-light);
 }
 
+.about_more_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_more_details div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about_more_details div p {
+  color: var(--color-light);
+}
+
 /*========== MEDIA QUERIES ===========*/
 @media screen and (max-width: 1024px) {
   .about_container {
@@ -105,5 +122,10 @@
 
   .about_content p {
     margin: 1.5rem 0;
+  }
+
+  .about_more_details div {
+    flex-direction: column;
+    text-align: center;
   }
 }
