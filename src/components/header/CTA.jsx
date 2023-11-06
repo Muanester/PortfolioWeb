@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Stephen_Mutisya_Resume.pdf";
+import CV from "../../assets/Stephen_Mutisya-Resume.pdf";
 import { motion } from "framer-motion";
 
 const CTA = () => {
