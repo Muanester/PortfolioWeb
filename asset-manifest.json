@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/PortfolioWeb/static/css/main.334258ba.css",
-    "main.js": "/PortfolioWeb/static/js/main.d0bfcde4.js",
+    "main.js": "/PortfolioWeb/static/js/main.d19409ce.js",
     "static/media/backsplash.jpg": "/PortfolioWeb/static/media/backsplash.3b61f39d77b58db168f2.jpg",
-    "static/media/Stephen_Mutisya_Resume.pdf": "/PortfolioWeb/static/media/Stephen_Mutisya_Resume.2b1eba021ab1ab4314c1.pdf",
     "static/media/dom.jpeg": "/PortfolioWeb/static/media/dom.c62b6525a19d58b3d3dc.jpeg",
     "static/media/portfolio5.png": "/PortfolioWeb/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/PortfolioWeb/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/PortfolioWeb/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/Stephen_Mutisya-Resume.pdf": "/PortfolioWeb/static/media/Stephen_Mutisya-Resume.c7cc87acaec4007dddd5.pdf",
     "static/media/portfolio1.jpg": "/PortfolioWeb/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "static/media/portfolio3.jpg": "/PortfolioWeb/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/PortfolioWeb/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/PortfolioWeb/index.html",
     "main.334258ba.css.map": "/PortfolioWeb/static/css/main.334258ba.css.map",
-    "main.d0bfcde4.js.map": "/PortfolioWeb/static/js/main.d0bfcde4.js.map"
+    "main.d19409ce.js.map": "/PortfolioWeb/static/js/main.d19409ce.js.map"
   },
   "entrypoints": [
     "static/css/main.334258ba.css",
-    "static/js/main.d0bfcde4.js"
+    "static/js/main.d19409ce.js"
   ]
 }
