@@ -1,11 +1,11 @@
 import React, { forwardRef } from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/portfolio-port.JPG";
+import IMG2 from "../../assets/portfolio-furn.JPG";
+import IMG3 from "../../assets/portfolio-vogue.JPG";
+import IMG4 from "../../assets/portfolio-tesla.JPG";
+import IMG5 from "../../assets/portfolio-disney.jpeg";
+import IMG6 from "../../assets/portfolio-dashboard.jpeg";
 import { motion } from "framer-motion";
 
 const Portfolio = forwardRef((props, portfolioRef) => {
