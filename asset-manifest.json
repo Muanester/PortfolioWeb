@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortfolioWeb/static/css/main.334258ba.css",
+    "main.css": "/PortfolioWeb/static/css/main.b97e8b0d.css",
     "main.js": "/PortfolioWeb/static/js/main.5af015c7.js",
     "static/media/backsplash.jpg": "/PortfolioWeb/static/media/backsplash.3b61f39d77b58db168f2.jpg",
     "static/media/portfolio-disney.jpeg": "/PortfolioWeb/static/media/portfolio-disney.706362881679d33f42b6.jpeg",
@@ -12,11 +12,11 @@
     "static/media/portfolio-port.JPG": "/PortfolioWeb/static/media/portfolio-port.2e1ad613f2c9ea9089ee.JPG",
     "static/media/portfolio-vogue.JPG": "/PortfolioWeb/static/media/portfolio-vogue.08fa18ec3fd075f99cc5.JPG",
     "index.html": "/PortfolioWeb/index.html",
-    "main.334258ba.css.map": "/PortfolioWeb/static/css/main.334258ba.css.map",
+    "main.b97e8b0d.css.map": "/PortfolioWeb/static/css/main.b97e8b0d.css.map",
     "main.5af015c7.js.map": "/PortfolioWeb/static/js/main.5af015c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.334258ba.css",
+    "static/css/main.b97e8b0d.css",
     "static/js/main.5af015c7.js"
   ]
 }
