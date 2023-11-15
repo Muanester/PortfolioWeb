@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/PortfolioWeb/static/css/main.334258ba.css",
-    "main.js": "/PortfolioWeb/static/js/main.d19409ce.js",
+    "main.js": "/PortfolioWeb/static/js/main.5af015c7.js",
     "static/media/backsplash.jpg": "/PortfolioWeb/static/media/backsplash.3b61f39d77b58db168f2.jpg",
+    "static/media/portfolio-disney.jpeg": "/PortfolioWeb/static/media/portfolio-disney.706362881679d33f42b6.jpeg",
     "static/media/dom.jpeg": "/PortfolioWeb/static/media/dom.c62b6525a19d58b3d3dc.jpeg",
-    "static/media/portfolio5.png": "/PortfolioWeb/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
-    "static/media/portfolio2.jpg": "/PortfolioWeb/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio6.jpg": "/PortfolioWeb/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio-dashboard.jpeg": "/PortfolioWeb/static/media/portfolio-dashboard.2260c071edf4a421905c.jpeg",
+    "static/media/portfolio-tesla.JPG": "/PortfolioWeb/static/media/portfolio-tesla.e225f6fe778a0dc9ae62.JPG",
+    "static/media/portfolio-furn.JPG": "/PortfolioWeb/static/media/portfolio-furn.8ea9d4865e343bf7346d.JPG",
     "static/media/Stephen_Mutisya-Resume.pdf": "/PortfolioWeb/static/media/Stephen_Mutisya-Resume.c7cc87acaec4007dddd5.pdf",
-    "static/media/portfolio1.jpg": "/PortfolioWeb/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
-    "static/media/portfolio3.jpg": "/PortfolioWeb/static/media/portfolio3.cbab42559fe73e73906f.jpg",
-    "static/media/portfolio4.jpg": "/PortfolioWeb/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/portfolio-port.JPG": "/PortfolioWeb/static/media/portfolio-port.2e1ad613f2c9ea9089ee.JPG",
+    "static/media/portfolio-vogue.JPG": "/PortfolioWeb/static/media/portfolio-vogue.08fa18ec3fd075f99cc5.JPG",
     "index.html": "/PortfolioWeb/index.html",
     "main.334258ba.css.map": "/PortfolioWeb/static/css/main.334258ba.css.map",
-    "main.d19409ce.js.map": "/PortfolioWeb/static/js/main.d19409ce.js.map"
+    "main.5af015c7.js.map": "/PortfolioWeb/static/js/main.5af015c7.js.map"
   },
   "entrypoints": [
     "static/css/main.334258ba.css",
-    "static/js/main.d19409ce.js"
+    "static/js/main.5af015c7.js"
   ]
 }
