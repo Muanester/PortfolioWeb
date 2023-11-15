@@ -85,10 +85,10 @@ const About = forwardRef((props, aboutRef) => {
             </motion.article>
           </div>
           <motion.p>
-            Hello, I am a highly skilled and experienced data analyst and web
-            developer ready to bring my expertise to your projects. With a
-            strong background in both fields, I offer a unique combination of
-            analytical prowess and technical proficiency.
+            Hello, I am a data analyst and web developer ready to bring my
+            expertise to your projects. With a strong background in both fields,
+            I offer a unique combination of analytical prowess and technical
+            proficiency.
             <br />
             <br />
             Together, my skills as a data analyst and web developer make me a
@@ -116,8 +116,8 @@ const About = forwardRef((props, aboutRef) => {
           <p>
             Additionally, my proficiency as a web developer allows me to
             transform data-driven insights into visually appealing and
-            user-friendly web applications. With a strong command of React.js,
-            HTML, CSS (& TAILWIND CSS), and JavaScript, I can build interactive
+            user-friendly web applications. With a strong command of REACT.JS,
+            HTML, CSS (& TAILWIND CSS), and JAVASCRIPT, I can build interactive
             and responsive websites that effectively communicate information and
             engage users. I am experienced in creating custom dashboards, data
             visualizations, and interactive charts. My attention to detail,
