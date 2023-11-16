@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/PortfolioWeb/static/css/main.b97e8b0d.css",
-    "main.js": "/PortfolioWeb/static/js/main.3025c550.js",
+    "main.css": "/PortfolioWeb/static/css/main.7062b7ba.css",
+    "main.js": "/PortfolioWeb/static/js/main.8c809f30.js",
     "static/media/backsplash.jpg": "/PortfolioWeb/static/media/backsplash.3b61f39d77b58db168f2.jpg",
+    "static/media/shadport.jpg": "/PortfolioWeb/static/media/shadport.5e77dec954f9ad8c8e76.jpg",
+    "static/media/moseport.jpg": "/PortfolioWeb/static/media/moseport.84a5bb4639f8e4b867b9.jpg",
     "static/media/portfolio-disney.jpeg": "/PortfolioWeb/static/media/portfolio-disney.706362881679d33f42b6.jpeg",
     "static/media/dom.jpeg": "/PortfolioWeb/static/media/dom.c62b6525a19d58b3d3dc.jpeg",
+    "static/media/nelport.jpg": "/PortfolioWeb/static/media/nelport.b5a8942581fb1df43269.jpg",
     "static/media/portfolio-dashboard.jpeg": "/PortfolioWeb/static/media/portfolio-dashboard.2260c071edf4a421905c.jpeg",
     "static/media/portfolio-tesla.JPG": "/PortfolioWeb/static/media/portfolio-tesla.e225f6fe778a0dc9ae62.JPG",
     "static/media/portfolio-furn.JPG": "/PortfolioWeb/static/media/portfolio-furn.8ea9d4865e343bf7346d.JPG",
     "static/media/Stephen_Mutisya-Resume.pdf": "/PortfolioWeb/static/media/Stephen_Mutisya-Resume.c7cc87acaec4007dddd5.pdf",
     "static/media/portfolio-port.JPG": "/PortfolioWeb/static/media/portfolio-port.2e1ad613f2c9ea9089ee.JPG",
     "static/media/portfolio-vogue.JPG": "/PortfolioWeb/static/media/portfolio-vogue.08fa18ec3fd075f99cc5.JPG",
+    "static/media/danport.jpg": "/PortfolioWeb/static/media/danport.f229d6f97181cfc147b0.jpg",
     "index.html": "/PortfolioWeb/index.html",
-    "main.b97e8b0d.css.map": "/PortfolioWeb/static/css/main.b97e8b0d.css.map",
-    "main.3025c550.js.map": "/PortfolioWeb/static/js/main.3025c550.js.map"
+    "main.7062b7ba.css.map": "/PortfolioWeb/static/css/main.7062b7ba.css.map",
+    "main.8c809f30.js.map": "/PortfolioWeb/static/js/main.8c809f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.b97e8b0d.css",
-    "static/js/main.3025c550.js"
+    "static/css/main.7062b7ba.css",
+    "static/js/main.8c809f30.js"
   ]
 }
