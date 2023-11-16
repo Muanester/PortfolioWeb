@@ -1,9 +1,9 @@
 import React from "react";
 import "./Testimonials.css";
-import AVT1 from "../../assets/avatar1.jpg";
-import AVT2 from "../../assets/avatar2.jpg";
-import AVT3 from "../../assets/avatar3.jpg";
-import AVT4 from "../../assets/avatar4.jpg";
+import AVT1 from "../../assets/danport.jpg";
+import AVT2 from "../../assets/moseport.jpg";
+import AVT3 from "../../assets/nelport.jpg";
+import AVT4 from "../../assets/shadport.jpg";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -53,7 +53,7 @@ const Testimonials = () => {
             <div className="client_avatar">
               <img src={AVT1} alt="" />
             </div>
-            <h5 className="client_name">Muaneter Mun</h5>
+            <h5 className="client_name">Daniel Kioko</h5>
             <small className="client_review">
               Working with Muanester on our website redesign was an exceptional
               experience. Their attention to detail, creativity, and technical
@@ -66,7 +66,7 @@ const Testimonials = () => {
             <div className="client_avatar">
               <img src={AVT2} alt="" />
             </div>
-            <h5 className="client_name">Mun Muaneter</h5>
+            <h5 className="client_name">Moses Katua</h5>
             <small className="client_review">
               We hired Muanester to develop our e-commerce platform, and the
               results exceeded our expectations. Their ability to create a
@@ -79,7 +79,7 @@ const Testimonials = () => {
             <div className="client_avatar">
               <img src={AVT3} alt="" />
             </div>
-            <h5 className="client_name">Mun Muaneter Mun</h5>
+            <h5 className="client_name">Nelson Mwosa</h5>
             <small className="client_review">
               We engaged Muanester for a data analysis project, and the results
               were insightful and actionable. Their expertise in predictive
@@ -92,7 +92,7 @@ const Testimonials = () => {
             <div className="client_avatar">
               <img src={AVT4} alt="" />
             </div>
-            <h5 className="client_name">Muaneter Mun Muanester</h5>
+            <h5 className="client_name">Shadrack Kyalo</h5>
             <small className="client_review">
               We partnered with Muanester to analyze patient data for our health
               tech startup. Their proficiency in data mining and pattern

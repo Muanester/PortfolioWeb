@@ -19,7 +19,12 @@
 
 .portfolio_item-image {
   border-radius: 1.5rem;
+  height: 200px;
   overflow: hidden;
+
+  & img {
+    height: 100%;
+  }
 }
 
 .portfolio_item h3 {
